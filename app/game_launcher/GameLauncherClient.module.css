@@ -1,0 +1,33 @@
+@reference "../globals.css";
+
+.page {
+  @apply flex min-h-screen items-center justify-center bg-zinc-50 px-6 py-12 dark:bg-black;
+}
+
+.main {
+  @apply flex w-full max-w-5xl flex-col gap-6 rounded-2xl bg-white p-6 dark:bg-zinc-950;
+}
+
+.title {
+  @apply text-2xl font-semibold text-black dark:text-zinc-50;
+}
+
+.form {
+  @apply flex flex-col gap-3 sm:flex-row sm:items-center;
+}
+
+.label {
+  @apply text-sm font-medium text-zinc-700 dark:text-zinc-300;
+}
+
+.select {
+  @apply h-10 rounded-full border border-black/[.12] px-4 text-sm outline-none ring-0 focus:border-black/[.3] dark:border-white/[.2] dark:bg-zinc-900 dark:focus:border-white/[.4];
+}
+
+.button {
+  @apply h-10 rounded-full bg-foreground px-5 text-sm font-medium text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.emptyState {
+  @apply rounded-lg border border-black/[.08] px-4 py-3 text-sm text-zinc-700 dark:border-white/[.145] dark:text-zinc-300;
+}

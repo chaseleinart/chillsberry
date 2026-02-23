@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <links>  
+	<dvd><![CDATA[http://www.amazon.com/Alvin-Chipmunks-Chipwrecked-Mike-Mitchell/dp/B004EPZ034/ref=sr_1_3?s=dvd&ie=UTF8&qid=1329165887&sr=1-3]]></dvd>
+	<site><![CDATA[http://www.munkyourself.com/us/]]></site>
+	<games><![CDATA[http://www.munkyourself.com/us/]]></games>
+	<videos><![CDATA[http://www.munkyourself.com/us/?go=videos]]></videos>
+  </links>
+  <titlescreen>
+    <logo src="resource/logo.png"></logo>   
+    <tagline1 enabled="true"><![CDATA[IT'S PARTY TIME!]]></tagline1>
+	<tagline2 enabled="true"><![CDATA[CHIPMUNK STYLE]]></tagline2>
+    <dvdBox src="resource/boxart.png" enabled="true"></dvdBox>
+    <logoFooter src="resource/footer_logo.png" enabled="true"></logoFooter>
+    <moreGames enabled="false"><![CDATA[MORE GAMES]]></moreGames>
+    <watchVideos enabled="false"><![CDATA[WATCH VIDEOS]]></watchVideos>
+    <dvdpromo><![CDATA[ON BLU-RAY &amp; DVD MARCH 27]]></dvdpromo>
+    <btn><![CDATA[PLAY GAME]]></btn>
+  </titlescreen>
+  <gameplay>
+    <endscreenlogo src="resource/vidEndScreen_logo.png"></endscreenlogo> 
+    <back><![CDATA[BACK]]></back>
+    <btn><![CDATA[HELP]]></btn>
+    <message><![CDATA[PERFECT]]></message>
+    <message2><![CDATA[miss]]></message2>
+    <loading><![CDATA[tuning up]]></loading>
+    <ready><![CDATA[press any key to play]]></ready>  
+    <endscreentext><![CDATA[WITH OVER 1 HOUR OF MUSIC & FUN<br>ONLY ON BLU-RAY & DVD]]></endscreentext>
+  </gameplay>
+  <levelend>
+    <title><![CDATA[YOU ROCK]]></title>
+    <copy1><![CDATA[PERFECT HITS]]></copy1>
+    <copy2><![CDATA[LONGEST STREAK]]></copy2>
+    <btn1><![CDATA[REPLAY]]></btn1>
+    <btn2><![CDATA[PLAYLIST]]></btn2>  
+    <dvdText1><![CDATA[MUCH MORE MUNK MUSIC]]></dvdText1>   
+    <dvdText2><![CDATA[AVAILABLE ONLY ON BLU-RAY &amp; DVD]]></dvdText2>
+  </levelend>
+  <playlist>
+    <title><![CDATA[PLAYLIST]]></title>
+    <song1 enabled="true" artist="" src="resource/survivor.flv" thumbnail="resource/survivor_thumb.jpg" title="">
+		  <artist><![CDATA[THE CHIPETTES]]></artist>
+		  <title><![CDATA[SURVIVOR]]></title>
+	  </song1>
+	  <song2 enabled="true" artist="" src="resource/vacation.flv" thumbnail="resource/vacation_thumb.jpg" title="">
+		  <artist><![CDATA[THE CHIPMUNKS & THE CHIPETTES]]></artist>
+		  <title><![CDATA[VACATION]]></title>
+	  </song2>
+	  <song3 enabled="true" artist="" src="resource/tvspot.flv" thumbnail="resource/tvspot_thumb.png" title="">
+		  <artist><![CDATA[ONLY ON BLU-RAY & DVD!]]></artist>
+		  <title><![CDATA[MORE MUNK MUSIC]]></title>
+	  </song3>
+	<yourScore><![CDATA[YOUR SCORE: ]]></yourScore>
+   </playlist>
+  <howto src="">
+  	<title><![CDATA[HOW TO PLAY]]></title>
+	<copy1><![CDATA[PRESS THE CORRESPONDING ARROW KEY IN SYNC WITH THE FALLING NOTES]]></copy1>
+	<img/>
+  </howto>
+</content>

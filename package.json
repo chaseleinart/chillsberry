@@ -1,22 +1,27 @@
 {
-  "name": "hello-next",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "chillsberry",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node sammy.js; serve -s _static -l tcp://0.0.0.0:${PORT:-8080} -n",
-    "lint": "next lint"
+    "start": "next start",
+    "lint": "eslint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "eslint-config-next": "^15.4.8",
-    "next": "^15.4.10",
-    "react": "^19.1.4",
-    "react-dom": "^19.1.4",
-    "serve": "^14.2.4"
+    "@ruffle-rs/ruffle": "^0.2.0-nightly.2026.2.23",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
