@@ -1,5 +1,6 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
+import { Suspense } from "react";
 import GameLauncherClient from "./GameLauncherClient";
 
 async function getAvailableGameIds() {
@@ -19,5 +20,9 @@ async function getAvailableGameIds() {
 export default async function GameLauncherPage() {
   const gameIds = await getAvailableGameIds();
 
-  return <GameLauncherClient gameIds={gameIds} />;
+  return (
+    <Suspense fallback={null}>
+      <GameLauncherClient gameIds={gameIds} />
+    </Suspense>
+  );
 }
